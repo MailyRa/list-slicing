@@ -70,7 +70,7 @@ def middle(input_list):
 
     """
 
-    return input_list[2:7]
+    return input_list[2:-2]
 
 print(middle([0, 3, 6, 9, 12, 15, 18, 21, 24, 27]))
 
@@ -100,9 +100,9 @@ def inner_four_end(input_list):
     [12, 15, 18, 21]
 
     """
+    return input_list[4:8]
 
-    return []
-# print(inner_four_end([0, 3, 6, 9, 12, 15, 18, 21, 24, 27]))
+print(inner_four_end([0, 3, 6, 9, 12, 15, 18, 21, 24, 27]))
 
 def replace_head(input_list):
     """Replace the head of input_list with the value 42 and return nothing.
