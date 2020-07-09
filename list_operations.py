@@ -9,42 +9,26 @@ print(head(['Jan', 'Feb', 'March']))
     
 
 def tail(input_list):
-    """Return a new list of all items, excluding the first item.
+    
+    return input_list[1:]
 
-    For example:
-
-    >>> tail(['Jan', 'Feb', 'Mar'])
-    ['Feb', 'Mar']
-
-    """
-
-    return []
+print(tail(['Jan', 'Feb', 'March']))
 
 
 def last(input_list):
-    """Return the last item of the input list.
 
-    For example:
+    return input_list[-1]
 
-    >>> last(['Jan', 'Feb', 'Mar'])
-    'Mar'
 
-    """
-
-    return []
+print(last(['Jan', 'Feb', 'March']))
 
 
 def top(input_list):
-    """Return all elements of the input list except the last.
 
-    For example:
+    return input_list[0:-1]
 
-    >>> top(['Jan', 'Feb', 'Mar'])
-    ['Jan', 'Feb']
+print(top(['Jan', 'Feb', 'March']))
 
-    """
-
-    return []
 
 
 def first_three(input_list):
@@ -57,7 +41,9 @@ def first_three(input_list):
 
     """
 
-    return []
+    return input_list[0:3]
+
+print(first_three(['Jan', 'Feb', 'March']))
 
 
 def last_five(input_list):
