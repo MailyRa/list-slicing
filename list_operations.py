@@ -133,8 +133,12 @@ def replace_third_and_last(input_list):
     True
 
     """
+    input_list[2] = 37
+    input_list[-1] = 37
 
-    pass
+    return input_list
+
+print(replace_third_and_last([0, 3, 6, 9, 12, 15, 18, 21, 24, 27]))
 
 
 def replace_middle(input_list):
