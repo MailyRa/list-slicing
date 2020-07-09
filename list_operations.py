@@ -115,8 +115,11 @@ def replace_head(input_list):
     True
 
     """
+    input_list[0] = 42
 
-    pass
+    return input_list
+
+print(replace_head([0, 3, 6, 9, 12, 15, 18, 21, 24, 27]))
 
 
 def replace_third_and_last(input_list):
