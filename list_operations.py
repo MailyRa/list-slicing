@@ -175,8 +175,12 @@ def delete_third_and_seventh(input_list):
     True
 
     """
+    del input_list[2]
+    del input_list[6]
 
-    pass
+    return input_list
+    
+print(delete_third_and_seventh(['Do', 'Re', 'Mi', 'Fa', 'So', 'La', 'Ti', 'Do']))
 
 
 def delete_middle(input_list):
