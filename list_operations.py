@@ -55,8 +55,9 @@ def last_five(input_list):
     [15, 18, 21, 24, 27]
 
     """
+    return input_list[5:]
 
-    return []
+print(last_five([0, 3, 6, 9, 12, 15, 18, 21, 24, 27]))
 
 
 def middle(input_list):
@@ -71,6 +72,7 @@ def middle(input_list):
 
     return []
 
+# print(middle([0, 3, 6, 9, 12, 15, 18, 21, 24, 27]))
 
 def inner_four(input_list):
     """Return the third, fourth, fifth, and sixth elements of input_list.
@@ -84,6 +86,7 @@ def inner_four(input_list):
 
     return []
 
+# print(inner_four([0, 3, 6, 9, 12, 15, 18, 21, 24, 27]))
 
 def inner_four_end(input_list):
     """Return the elements that are 6th, 5th, 4th, and 3rd from the end of input_list.
@@ -99,7 +102,7 @@ def inner_four_end(input_list):
     """
 
     return []
-
+# print(inner_four_end([0, 3, 6, 9, 12, 15, 18, 21, 24, 27]))
 
 def replace_head(input_list):
     """Replace the head of input_list with the value 42 and return nothing.
