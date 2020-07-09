@@ -117,7 +117,7 @@ def replace_head(input_list):
     """
     input_list[0] = 42
 
-    return input_list
+    # return input_list
 
 print(replace_head([0, 3, 6, 9, 12, 15, 18, 21, 24, 27]))
 
@@ -136,7 +136,7 @@ def replace_third_and_last(input_list):
     input_list[2] = 37
     input_list[-1] = 37
 
-    return input_list
+    # return input_list
 
 print(replace_third_and_last([0, 3, 6, 9, 12, 15, 18, 21, 24, 27]))
 
@@ -159,7 +159,7 @@ def replace_middle(input_list):
 
     input_list[2:-2] = [42, 37]
 
-    return input_list
+    # return input_list
 
 print(replace_middle([0, 3, 6, 9, 12, 15, 18, 21, 24, 27]))    
 
@@ -178,7 +178,7 @@ def delete_third_and_seventh(input_list):
     del input_list[2]
     del input_list[5]
 
-    return input_list
+    # return input_list
 
 print(delete_third_and_seventh(['Do', 'Re', 'Mi', 'Fa', 'So', 'La', 'Ti', 'Do']))
 
@@ -198,12 +198,10 @@ def delete_middle(input_list):
     """
     del input_list[2:-2]
 
-    return input_list
+    # return input_list
 
 print(delete_middle(['Do', 'Re', 'Mi', 'Fa', 'So', 'La', 'Ti', 'Do']))
     
-
-
 # This is the part were we actually run the doctests.
 
 if __name__ == '__main__':
