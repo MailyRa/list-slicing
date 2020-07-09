@@ -70,9 +70,9 @@ def middle(input_list):
 
     """
 
-    return []
+    return input_list[2:7]
 
-# print(middle([0, 3, 6, 9, 12, 15, 18, 21, 24, 27]))
+print(middle([0, 3, 6, 9, 12, 15, 18, 21, 24, 27]))
 
 def inner_four(input_list):
     """Return the third, fourth, fifth, and sixth elements of input_list.
