@@ -84,9 +84,9 @@ def inner_four(input_list):
 
     """
 
-    return []
+    return input_list[2:6]
 
-# print(inner_four([0, 3, 6, 9, 12, 15, 18, 21, 24, 27]))
+print(inner_four([0, 3, 6, 9, 12, 15, 18, 21, 24, 27]))
 
 def inner_four_end(input_list):
     """Return the elements that are 6th, 5th, 4th, and 3rd from the end of input_list.
